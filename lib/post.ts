@@ -27,7 +27,7 @@ export function getSortedPostsData() {
     if (a.date < b.date) {
       return 1;
     } else {
-      -1;
+      return -1;
     }
   });
 }
